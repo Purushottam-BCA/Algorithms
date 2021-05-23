@@ -1,4 +1,5 @@
-/*
+/* Binary Search on ANSWER
+
 Till now we have applied binary search only on sorted array but we can apply it to the unsorted array as well in some condition.
 
 APPROACH :- In that case we have to define some criteria for both cases :-
