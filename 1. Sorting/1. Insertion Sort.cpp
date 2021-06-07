@@ -7,7 +7,7 @@ void Insertion_Sort( int a[], int size)
   {
     key = a[i];
     j = i-1;
-    while(j>0 && a[j]>key)
+    while(j>=0 && a[j]>key)
     {
       a[j+1] = a[j];
       j--;
