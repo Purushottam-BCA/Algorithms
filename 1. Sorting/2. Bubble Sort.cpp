@@ -13,7 +13,7 @@ void Bubble_sort( int a[], int n )
   {
     bool ischanged=false;
     for( int j=1; j<n-i-1; j++)
-      if(a[i]>a[j])
+      if(a[j]>a[j+1])
       {
         swap(a[i],a[j]);
         ischanged=true;
