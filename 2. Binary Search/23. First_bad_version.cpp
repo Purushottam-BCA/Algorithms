@@ -20,8 +20,27 @@ Explanation:    call isBadVersion(3) -> false
 Then 4 is the first bad version.
 */
 
+/* 100 % faster LEETCODE */
 
-int first_bad_version(const vector<bool> &a) // Binary Search 2nd template
+    int firstBadVersion(int n) {
+        long int res, low=1,high=n,mid;
+        while(low<=high)
+        {
+            mid=low+(high-low)/2;
+            if(isBadVersion(mid))
+            {
+             res=mid;
+             high=mid-1;
+            }
+            else
+                low=mid+1;
+        }
+        return res;
+    }
+
+// ---------------------------------------------------------------------------
+
+int first_bad_version(const vector<bool> &a) // Binary Search 2nd template BUT TLE ERROR
 {
     if(a.size()==0) return -1;
     int low=1, high=a.size();
