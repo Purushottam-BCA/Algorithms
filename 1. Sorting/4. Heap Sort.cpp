@@ -29,7 +29,7 @@ SPACE - O(log n)
 
     build_Max_heap( array [] )
     {
-      A.Heap_Size = A.length();
+      A.Heap_Size = array.length();
       for ( i = N/2 ; i>=0; i--)  
          Max_heapify( array , i );
     }
@@ -52,7 +52,7 @@ Heap_Sort ( Array[] )
 {
   Build_Max_Heap( Array );   // Build A Max-Heap : O(n)
  
-  for ( i = A.length ; i>1; i-- )  // O(log n)
+  for ( i = Array.length ; i>1; i-- )  // O(log n)
   {
     Swap( Array[i], Array[1] );
     A.Heap_Size = A.Heap_Size-1;
