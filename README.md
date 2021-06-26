@@ -8,3 +8,7 @@ Most Common Algorithms and Problems based on those algorithms
 ### Searching Algorithms
 
 <img src="https://miro.medium.com/max/960/1*eDeIkajakaqOQUlN3dVVfg.gif">
+
+### Heap Based Problems
+
+<img src="https://miro.medium.com/max/700/1*LVcbTeL6zPLfDHiQ2w3Jtw.gif">
